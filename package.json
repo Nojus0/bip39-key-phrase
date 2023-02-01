@@ -9,6 +9,10 @@
     "start": "node dist/index.js"
   },
   "keywords": [],
+  "stackblitz": {
+    "startCommand": "pnpm install && pnpm run build && pnpm run start",
+    "installDependencies": false
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
